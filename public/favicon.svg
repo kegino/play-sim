@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="neonGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="cyberBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#180b28"/>
+      <stop offset="100%" stop-color="#07030c"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#cyberBg)"/>
+  <rect width="496" height="496" x="8" y="8" rx="120" stroke="url(#neonPink)" stroke-width="8" opacity="0.4"/>
+  <!-- Play Sim Hexagon Core -->
+  <polygon points="256,120 376,190 376,322 256,392 136,322 136,190" fill="url(#neonPink)" opacity="0.85"/>
+  <!-- Central Golden Play Symbol -->
+  <polygon points="220,195 330,256 220,317" fill="url(#neonGold)"/>
+</svg>
